@@ -49,6 +49,7 @@
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
     NSLog(@"History changed~");
+    NSLog(@"History changed~");
     //WeightEntry* value = [change valueForKey:NSKeyValueChangeNewKey];
 
 }
