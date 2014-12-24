@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47360DA31A482FBE00CCDEB0 /* WeightEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 47360DA21A482FBE00CCDEB0 /* WeightEntry.m */; };
+		47360DA61A48318A00CCDEB0 /* WeightHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 47360DA51A48318A00CCDEB0 /* WeightHistory.m */; };
+		475252661A4992EF00687E69 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475252651A4992EF00687E69 /* TabBarController.m */; };
 		47B94EED1A480E05004DD15E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B94EEC1A480E05004DD15E /* main.m */; };
 		47B94EF01A480E05004DD15E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B94EEF1A480E05004DD15E /* AppDelegate.m */; };
-		47B94EF31A480E05004DD15E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B94EF21A480E05004DD15E /* FirstViewController.m */; };
-		47B94EF61A480E05004DD15E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B94EF51A480E05004DD15E /* SecondViewController.m */; };
 		47B94EF91A480E05004DD15E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B94EF71A480E05004DD15E /* Main.storyboard */; };
 		47B94EFB1A480E05004DD15E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B94EFA1A480E05004DD15E /* Images.xcassets */; };
 		47B94EFE1A480E05004DD15E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B94EFC1A480E05004DD15E /* LaunchScreen.xib */; };
 		47B94F0A1A480E05004DD15E /* Health_BeatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B94F091A480E05004DD15E /* Health_BeatTests.m */; };
+		47B94F191A481302004DD15E /* EnterWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B94F181A481302004DD15E /* EnterWeightViewController.m */; };
+		47B94F1F1A481360004DD15E /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B94F1E1A481360004DD15E /* HistoryViewController.m */; };
+		47B94F221A48138B004DD15E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B94F211A48138B004DD15E /* DetailViewController.m */; };
+		47B94F251A4813A4004DD15E /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B94F241A4813A4004DD15E /* GraphViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +33,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47360DA11A482FBE00CCDEB0 /* WeightEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightEntry.h; sourceTree = "<group>"; };
+		47360DA21A482FBE00CCDEB0 /* WeightEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightEntry.m; sourceTree = "<group>"; };
+		47360DA41A48318A00CCDEB0 /* WeightHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightHistory.h; sourceTree = "<group>"; };
+		47360DA51A48318A00CCDEB0 /* WeightHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightHistory.m; sourceTree = "<group>"; };
+		475252641A4992EF00687E69 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		475252651A4992EF00687E69 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		47B94EE71A480E05004DD15E /* Health Beat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health Beat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B94EEB1A480E05004DD15E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47B94EEC1A480E05004DD15E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47B94EEE1A480E05004DD15E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47B94EEF1A480E05004DD15E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		47B94EF11A480E05004DD15E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		47B94EF21A480E05004DD15E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		47B94EF41A480E05004DD15E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		47B94EF51A480E05004DD15E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		47B94EF81A480E05004DD15E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47B94EFA1A480E05004DD15E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		47B94EFD1A480E05004DD15E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		47B94F031A480E05004DD15E /* Health BeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health BeatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B94F081A480E05004DD15E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47B94F091A480E05004DD15E /* Health_BeatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Health_BeatTests.m; sourceTree = "<group>"; };
+		47B94F171A481302004DD15E /* EnterWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterWeightViewController.h; sourceTree = "<group>"; };
+		47B94F181A481302004DD15E /* EnterWeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterWeightViewController.m; sourceTree = "<group>"; };
+		47B94F1D1A481360004DD15E /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		47B94F1E1A481360004DD15E /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		47B94F201A48138B004DD15E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		47B94F211A48138B004DD15E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		47B94F231A4813A4004DD15E /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		47B94F241A4813A4004DD15E /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +101,12 @@
 			children = (
 				47B94EEE1A480E05004DD15E /* AppDelegate.h */,
 				47B94EEF1A480E05004DD15E /* AppDelegate.m */,
-				47B94EF11A480E05004DD15E /* FirstViewController.h */,
-				47B94EF21A480E05004DD15E /* FirstViewController.m */,
-				47B94EF41A480E05004DD15E /* SecondViewController.h */,
-				47B94EF51A480E05004DD15E /* SecondViewController.m */,
 				47B94EF71A480E05004DD15E /* Main.storyboard */,
 				47B94EFA1A480E05004DD15E /* Images.xcassets */,
+				47B94F161A4810A7004DD15E /* Images */,
+				47B94F151A48109A004DD15E /* Controllers */,
+				47B94F141A48108C004DD15E /* Views */,
+				47B94F131A481085004DD15E /* Models */,
 				47B94EFC1A480E05004DD15E /* LaunchScreen.xib */,
 				47B94EEA1A480E05004DD15E /* Supporting Files */,
 			);
@@ -122,6 +137,48 @@
 				47B94F081A480E05004DD15E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47B94F131A481085004DD15E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				47360DA11A482FBE00CCDEB0 /* WeightEntry.h */,
+				47360DA21A482FBE00CCDEB0 /* WeightEntry.m */,
+				47360DA41A48318A00CCDEB0 /* WeightHistory.h */,
+				47360DA51A48318A00CCDEB0 /* WeightHistory.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		47B94F141A48108C004DD15E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		47B94F151A48109A004DD15E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				47B94F171A481302004DD15E /* EnterWeightViewController.h */,
+				47B94F181A481302004DD15E /* EnterWeightViewController.m */,
+				47B94F1D1A481360004DD15E /* HistoryViewController.h */,
+				47B94F1E1A481360004DD15E /* HistoryViewController.m */,
+				47B94F201A48138B004DD15E /* DetailViewController.h */,
+				47B94F211A48138B004DD15E /* DetailViewController.m */,
+				47B94F231A4813A4004DD15E /* GraphViewController.h */,
+				47B94F241A4813A4004DD15E /* GraphViewController.m */,
+				475252641A4992EF00687E69 /* TabBarController.h */,
+				475252651A4992EF00687E69 /* TabBarController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		47B94F161A4810A7004DD15E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,10 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47B94EF61A480E05004DD15E /* SecondViewController.m in Sources */,
+				47B94F221A48138B004DD15E /* DetailViewController.m in Sources */,
+				47B94F191A481302004DD15E /* EnterWeightViewController.m in Sources */,
 				47B94EF01A480E05004DD15E /* AppDelegate.m in Sources */,
-				47B94EF31A480E05004DD15E /* FirstViewController.m in Sources */,
+				475252661A4992EF00687E69 /* TabBarController.m in Sources */,
 				47B94EED1A480E05004DD15E /* main.m in Sources */,
+				47360DA61A48318A00CCDEB0 /* WeightHistory.m in Sources */,
+				47360DA31A482FBE00CCDEB0 /* WeightEntry.m in Sources */,
+				47B94F1F1A481360004DD15E /* HistoryViewController.m in Sources */,
+				47B94F251A4813A4004DD15E /* GraphViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,9 +413,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
 				INFOPLIST_FILE = "Health Beat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 			};
 			name = Debug;
 		};
@@ -361,9 +427,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
 				INFOPLIST_FILE = "Health Beat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 			};
 			name = Release;
 		};
@@ -420,6 +490,7 @@
 				47B94F0F1A480E05004DD15E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47B94F101A480E05004DD15E /* Build configuration list for PBXNativeTarget "Health BeatTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +499,7 @@
 				47B94F121A480E05004DD15E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
